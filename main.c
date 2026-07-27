@@ -29,7 +29,9 @@ main(int argc, char *argv[])
 
         if(option==1){
             int dificult=selectDificulty();
-          
+            startGame(dificult);
+            
+             
         }else{
             break;
         }
@@ -38,7 +40,7 @@ main(int argc, char *argv[])
         
     }
 
-    finish(0);               /* we are done */
+    finish(0);               
 }
 
 
