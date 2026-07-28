@@ -3,6 +3,22 @@
 
 int columnsRows;
 int level[3]={8,10,12};
+typedef enum {
+    HORIZONTAL,
+    VERTICAL
+}Orientacion ;
+typedef struct 
+{
+    /* data */
+    int x;
+    int y;
+    int longitud;
+    Orientacion direccion;
+    int vidas;
+
+}Barco;
+
+
 
 
 
